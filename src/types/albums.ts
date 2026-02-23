@@ -24,7 +24,7 @@ export const AlbumSchema = z.object({
       lat: z.number(),
       lng: z.number()
     })
-  ),
+  ).nullable().default([]),
   color: HexSchema,
   order: z.number(),
   type: z.enum(['location', 'custom'])

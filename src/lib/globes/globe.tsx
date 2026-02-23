@@ -70,8 +70,8 @@ function usePoints(albums: Array<Album>) {
   const locations = albums.filter(album => album.type === types.LOCATION);
   for (const album of locations) {
     points.push(
-      { lat: album.lat, lng: album.lng, radius: 0.19 },
-      ...album.locations.map(location => ({
+      { lat: album.lat, lng: album.lng, radius: 0.19},
+      ...(album.locations || []).map(location => ({
         lat: location.lat,
         lng: location.lng,
         radius: 0.135

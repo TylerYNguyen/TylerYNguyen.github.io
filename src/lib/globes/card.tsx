@@ -10,7 +10,7 @@ export function AlbumCard({ album }: { album: Album }) {
   const randomTop = randomInRange(10, 50);
 
   let tags = [album.description];
-  for (const location of album.locations) {
+  for (const location of album.locations || []) {
     tags.push(location.description || '');
   }
   tags = tags.filter(Boolean) as string[];

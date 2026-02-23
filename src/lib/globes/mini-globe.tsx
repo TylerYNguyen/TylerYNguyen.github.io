@@ -31,7 +31,7 @@ function useMarkers(albums: Array<Album>) {
       location: [album.lat, album.lng],
       size: 0.04
     });
-    for (const location of album.locations) {
+    for (const location of album.locations || []) {
       markers.push({
         location: [location.lat, location.lng],
         size: 0.04

@@ -8,11 +8,11 @@ export function useTags(
 ) {
   let tags = [];
   tags.push(album.date);
-  for (const location of album.locations) {
+  for (const location of album.locations || []) {
     tags.push(location.date);
   }
   tags.push(album.description);
-  for (const location of album.locations) {
+  for (const location of album.locations || []) {
     tags.push(location.description);
   }
   tags = tags.filter(Boolean) as string[];
