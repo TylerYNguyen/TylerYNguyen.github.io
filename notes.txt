@@ -1,0 +1,24 @@
+This is my notes because we ran out of messages for copilot chat
+
+We are stuck on setting up the website to be out in the public rather than running locally. 
+It is working on local as expected. 
+
+1. Get it to run on a website
+2. Change the name from Aaron to Tyler
+3. Add in more locations / photos
+4. Improve the page. Once we click on 
+    A. Japan
+    B. Bring us to the locations, but separate it by Date/Location inside (Similar to Rebecca)
+    C. Once photo is  clicked on, give statistics about photo. 
+    D. Camera type, shot on what, date, etc
+
+
+https://app.contentful.com/spaces/p18miozpcsvd/views/entries
+This is where we can add in the locations and photos. 
+
+And this is our Github page 
+https://github.com/TylerYNguyen/TylerYNguyen.github.io
+
+
+This is what we're trying to copy 
+https://photos.agarun.com/
